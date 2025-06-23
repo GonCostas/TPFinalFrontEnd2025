@@ -47,6 +47,10 @@ img {
     position: relative;
 }
 
+.menuHamburguesa {
+    display: none;
+}
+
 .containerLogo {
     position: absolute;
     top: 10%;
@@ -142,6 +146,16 @@ h3 {
         /* height: auto;
         width: 70%; */
     }
+    .menuHamburguesa {
+        display: flex;
+        position: absolute;
+        top: 12%;
+        left: 7%;
+    }
+    #menuImagen {
+        width: 80px;
+        height: auto;
+    }
 
     .containerLogo {
     position: absolute;
@@ -160,18 +174,17 @@ h3 {
     }
 
     .containerFlechasMobile {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    z-index: 10;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: flex;
+
     }
 
     .item6, .item7 {
         background-color: var(--Black);
-        border: 50px solid var(--Black);
-        width: 30px;
+        border: 80px solid var(--Black);
+        width: 40px;
         height: auto;
     }
     .item2 {
