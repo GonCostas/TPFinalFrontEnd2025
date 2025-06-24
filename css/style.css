@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+	box-sizing: border-box;
 }
 :root {
     --Dark-Gray: hsl(0, 0%, 63%);
@@ -139,6 +139,8 @@ h2 {
 .item6, .item7 {
     background-color: var(--Black);
     /* border: 34px solid var(--Black); */
+        background: none;
+    border: none;
 }
 
 h4 {
