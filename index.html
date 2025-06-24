@@ -16,6 +16,7 @@
 <body>
     <div class="grid-container">
         <div class="item1">
+            <!-- solo visible en vista mobile -->
             <div class="containerFlechasMobile">
                 <div class="item6">
                     <img src="./images/icon-angle-left.svg" alt="">
@@ -24,29 +25,25 @@
                     <img src="./images/icon-angle-right.svg" alt="">
                 </div>
             </div>
-            <div class="containerMain">
+            <!-- solo visible en vista mobile -->
+            <picture>
+                <source srcset="./images/mobile-image-hero-1.jpg" alt="imagenMobile1" media="(max-width: 375px)">
+                <img src="./images/desktop-image-hero-1.jpg" alt="imagenEscritorio1">
+            </picture>
+            <div class="containerLogo">
+                <div class="logo">
+                    <img class="imagen-logo" src="./images/logo.svg" alt="logo">
+                </div>
                 
-                    <nav class="navBar">
-                    <ul>
+                <nav class="menu">
+                    <img id="menuImagen" src="./images/icon-hamburger.svg" alt="menu">
+                    <ul class="navBar">
                         <li><a href="#">home</a></li>
                         <li><a href="#">shop</a></li>
                         <li><a href="#">about</a></li>
                         <li><a href="#">contact</a></li>
                     </ul>
-                    </nav>
-                
-            </div>
-            <!-- <picture>
-                <source srcset="./images/mobile-image-hero-1.jpg" alt="imagenMobile1" media="(max-width: 375px)">
-                <img src="./images/desktop-image-hero-1.jpg" alt="imagenEscritorio1">
-            </picture> -->
-            <div class="menuHamburguesa">
-                <img id="menuImagen" src="./images/icon-hamburger.svg" alt="menu">
-            </div>
-            <div class="containerLogo">
-                <div class="logo">
-                    <img src="./images/logo.svg" alt="logo">
-                </div>
+                </nav>
             </div>
         </div>
         <div class="item2">
@@ -57,14 +54,23 @@
             <div class="shopNow">
                 <h4>SHOP NOW</h4>
                 <img class="flecha" src="./images/icon-arrow.svg" alt="iconoFlecha">
-                <div class="containerFlechas">
+                <!-- <div class="containerFlechas">
                     <div class="item6">
                         <img src="./images/icon-angle-left.svg" alt="">
                     </div>
                     <div class="item7">
                         <img src="./images/icon-angle-right.svg" alt="">
                     </div>
-                </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Mover fuera de item2 -->
+        <div class="containerFlechas">
+            <div class="item6">
+                <img src="./images/icon-angle-left.svg" alt="">
+            </div>
+            <div class="item7">
+                <img src="./images/icon-angle-right.svg" alt="">
             </div>
         </div>
         <div class="item3">
