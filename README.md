@@ -2,7 +2,7 @@
 
 
 📢 **Ver el sitio en línea:**  
-👉 [https://teotronic5438.github.io/tpfinalfrontendifts18/](https://teotronic5438.github.io/tpfinalfrontendifts18/)
+👉 [https://nestor-diaz1.github.io/TPFinalFrontEnd2025/](https://nestor-diaz1.github.io/TPFinalFrontEnd2025/)
 
 ---
 
