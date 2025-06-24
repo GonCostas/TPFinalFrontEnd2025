@@ -8,35 +8,33 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:wght@500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
-<!-- seleccionar, control  + k y contro  + f para tabular-->
+
 <body>
-    <div class="grid-container">
-        <div class="item1">
+    <main class="grid-container">
+
+        <section class="item1">
             <!-- solo visible en vista mobile -->
             <div class="containerFlechasMobile">
-                <div class="item6">
-                    <img src="./images/icon-angle-left.svg" alt="">
-                </div>
-                <div class="item7">
-                    <img src="./images/icon-angle-right.svg" alt="">
-                </div>
+                <button class="item6" aria-label="Imagen anterior">
+                    <img src="./images/icon-angle-left.svg" alt="flecha para boton imagen anterior">
+                </button>
+                <button class="item7" aria-label="Imagen siguiente">
+                    <img src="./images/icon-angle-right.svg" alt="flecha para boton imagen siguiente">
+                </button>
             </div>
             <!-- solo visible en vista mobile -->
             <picture>
-                <source srcset="./images/mobile-image-hero-1.jpg" alt="imagenMobile1" media="(max-width: 375px)">
-                <img src="./images/desktop-image-hero-1.jpg" alt="imagenEscritorio1">
+                <source srcset="./images/mobile-image-hero-1.jpg" media="(max-width: 375px)">
+                <img src="./images/desktop-image-hero-1.jpg" alt="Imagen de deco interior minimalista de un comedor con centro de mesa y sillas de diseño moderno.">
             </picture>
             <div class="containerLogo">
                 <div class="logo">
                     <img class="imagen-logo" src="./images/logo.svg" alt="logo">
                 </div>
-                
                 <nav class="menu">
-                    <img id="menuImagen" src="./images/icon-hamburger.svg" alt="menu">
+                    <img id="menuImagen" src="./images/icon-hamburger.svg" alt="menú">
                     <ul class="navBar">
                         <li><a href="#">home</a></li>
                         <li><a href="#">shop</a></li>
@@ -45,47 +43,39 @@
                     </ul>
                 </nav>
             </div>
-        </div>
-        <div class="item2">
+        </section>
+
+        <section class="item2">
             <h2>Discover innovative ways to decorate</h2>
-            <p>We provide unmatched quality, comfort, and style for property owners across the country. Our experts
-                combine form and function in bringing your vision to life. Create a room in your own style with our
-                collection and make your property a reflection of you and what you love.</p>
+            <p>We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
             <div class="shopNow">
                 <h4>SHOP NOW</h4>
-                <img class="flecha" src="./images/icon-arrow.svg" alt="iconoFlecha">
-                <!-- <div class="containerFlechas">
-                    <div class="item6">
-                        <img src="./images/icon-angle-left.svg" alt="">
-                    </div>
-                    <div class="item7">
-                        <img src="./images/icon-angle-right.svg" alt="">
-                    </div>
-                </div> -->
+                <img class="flecha" src="./images/icon-arrow.svg" alt="icono flecha">
             </div>
-        </div>
-        <!-- Mover fuera de item2 -->
+        </section>
+
         <div class="containerFlechas">
-            <div class="item6">
-                <img src="./images/icon-angle-left.svg" alt="">
-            </div>
-            <div class="item7">
-                <img src="./images/icon-angle-right.svg" alt="">
-            </div>
+            <button class="item6" aria-label="Imagen anterior">
+                <img src="./images/icon-angle-left.svg" alt="flecha para boton imagen anterior">
+            </button>
+            <button class="item7" aria-label="Imagen siguiente">
+                <img src="./images/icon-angle-right.svg" alt="flecha para boton imagen siguiente">
+            </button>
         </div>
-        <div class="item3">
-            <img src="./images/image-about-dark.jpg" alt="">
-        </div>
-        <div class="item4">
+
+        <section class="item3">
+            <img src="./images/image-about-dark.jpg" alt="Imagen deco interior sillon oscuro y una mesa ce centro redonda">
+        </section>
+
+        <section class="item4">
             <h3>ABOUT OUR FURNITURE</h3>
-            <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room
-                unique, or pick a cohesive theme that best express your interests and what inspires you. Find the
-                furniture pieces you need, from traditional to contemporary styles or anything in between. Product
-                specialists are available to help you create your dream space.</p>
-        </div>
-        <div class="item5">
-            <img src="./images/image-about-light.jpg" alt="">
-        </div>
-    </div>
+            <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you...</p>
+        </section>
+
+        <section class="item5">
+            <img src="./images/image-about-light.jpg" alt="Imagen deco de silla blanca">
+        </section>
+
+    </main>
 </body>
 </html>
